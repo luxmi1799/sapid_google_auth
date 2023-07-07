@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "987424949508",
+    "firebase_url": "https://mybazaar-dc1dd.firebaseio.com",
+    "project_id": "mybazaar-dc1dd",
+    "storage_bucket": "mybazaar-dc1dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987424949508:android:ec8f047b1f253028687c51",
+        "android_client_info": {
+          "package_name": "com.example.sapid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "987424949508-bl3rij9ui8f2njtsiduoad2pk91vkqbn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMmVeMLcC0oFqujf1fprh7EtpaFP4VAWY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "987424949508-bl3rij9ui8f2njtsiduoad2pk91vkqbn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987424949508:android:7f3415427f884adb687c51",
+        "android_client_info": {
+          "package_name": "com.example.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "987424949508-fcha67feg1vrujs4aulgkn2qg9mq2gdq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.test",
+            "certificate_hash": "bce9959dae5f359397110c04aff683457da6f355"
+          }
+        },
+        {
+          "client_id": "987424949508-bl3rij9ui8f2njtsiduoad2pk91vkqbn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMmVeMLcC0oFqujf1fprh7EtpaFP4VAWY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "987424949508-bl3rij9ui8f2njtsiduoad2pk91vkqbn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
