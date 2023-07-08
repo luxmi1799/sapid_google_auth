@@ -263,7 +263,7 @@ class _Login extends State<LoginPage> {
     // Here signInWithGoogle() is your defined function!
     if (user != null) {
       Navigator.of(context).push(MaterialPageRoute(
-          builder: (context) => home(
+          builder: (context) => homePage(
                 name: user.user?.displayName,
               )));
     } else {

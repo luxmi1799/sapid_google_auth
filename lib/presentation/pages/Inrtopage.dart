@@ -3,6 +3,7 @@ import 'package:liquid_swipe/liquid_swipe.dart';
 import 'package:sapid/presentation/pages/home.dart';
 import 'package:sapid/presentation/pages/login.dart';
 
+import '../../utils/constants/Constant.dart';
 import '../../utils/widgets/Intropage_widget.dart';
 
 class Intropage extends StatefulWidget {
@@ -45,7 +46,6 @@ class _Intropage extends State<Intropage> {
   }
 
   homepage() {
-    Navigator.pushReplacement(
-        context, MaterialPageRoute(builder: (context) => Login()));
+    Navigator.of(context).pushReplacementNamed(login);
   }
 }

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:sapid/presentation/pages/loginPage.dart';
 import 'package:sapid/presentation/pages/register.dart';
+import 'package:sapid/utils/constants/Constant.dart';
 
 class Login extends StatefulWidget {
   @override
@@ -87,8 +88,7 @@ class _ModalBottomSheetState extends State<ModalBottomSheet>
                 // padding: EdgeInsets.symmetric(horizontal: 50, vertical: 20),
               ),
               onPressed: () {
-                Navigator.of(context)
-                    .push(MaterialPageRoute(builder: (context) => Register()));
+                Navigator.of(context).pushNamed(signUp);
               },
               child: Text("Start your application",
                   style: TextStyle(
@@ -102,8 +102,7 @@ class _ModalBottomSheetState extends State<ModalBottomSheet>
           ),
           InkWell(
             onTap: () {
-              Navigator.of(context)
-                  .push(MaterialPageRoute(builder: (context) => LoginPage()));
+              Navigator.of(context).pushNamed(loginpage);
             },
             child: Text(
               "Login",
